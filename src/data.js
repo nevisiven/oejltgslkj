@@ -7,49 +7,49 @@ export const list = [
   {
     id: "news",
     title: "News",
-    img_url: "../images/news.jpg",
+    img_url: "../images/marketing.png",
     bg_color: "#ffa21c",
   },
   {
     id: "symptoms",
     title: "Symptoms",
-    img_url: "../images/symptoms.png",
+    img_url: "../images/covid(1).png",
     bg_color: "#d2e8f2",
   },
   {
     id: "prevention",
     title: "Prevention",
-    img_url: "../images/prevention.png",
+    img_url: "../images/covid(2).png",
     bg_color: "#d6cc9e",
   },
   {
     id: "movies",
     title: "Movies",
-    img_url: "../images/movies.jpeg",
+    img_url: "../images/movie-player.png",
     bg_color: "#d64e00",
   },
   {
     id: "games",
     title: "Games",
-    img_url: "../images/games.jpg",
+    img_url: "../images/joystick.png",
     bg_color: "#ffe0b5",
   },
   {
     id: "statics",
     title: "Statistics",
-    img_url: "../images/static.png",
+    img_url: "../images/covid.png",
     bg_color: "#9bc6ba",
   },
   {
     id: "disc",
     title: "Discussions",
-    img_url: "../images/disc.png",
+    img_url: "../images/communication.png",
     bg_color: "#e6c5d0",
   },
   {
     id: "aboutus",
     title: "AboutUs",
-    img_url: "../images/aboutus.jpeg",
+    img_url: "../images/aboutus.png",
     bg_color: "#ffe083",
   }
 ];
