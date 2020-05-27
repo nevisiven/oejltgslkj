@@ -27,8 +27,9 @@ export const list = [
     title: "Statistics",
     img_url: "../images/covid.png",
     bg_color: "#9bc6ba",
-    embed: "<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-dfcb5f72-99b5-43b5-8d5f-4ddbe29824aa"></div>"
+    embed: "
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-dfcb5f72-99b5-43b5-8d5f-4ddbe29824aa"></div>",
   },
   {
     id: "movies",
