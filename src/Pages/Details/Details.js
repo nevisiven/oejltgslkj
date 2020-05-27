@@ -59,7 +59,7 @@ class Details extends React.Component {
             <ul>
               {list &&
                 list.map((item, i) => (
-                  <li key={i}>
+                  <li key={i}></li>
           <div className="detail-box">
            <a href={link} target="_blank">{link}</a>
            <div className="detail-box">
