@@ -35,21 +35,6 @@ export const list = [
     
   },
   {
-    id: "movies",
-    title: "Must-Watch Movie",
-    img_url: "../images/movie-player.png",
-    bg_color: "#d64e00",
-  },
-  {
-    id: "games",
-    title: "Games",
-    img_url: "../images/joystick.png",
-    bg_color: "#ffe0b5",
-    title: "Must-Play Game",
-    description: "Houseparty is a video chat app owned by Fortnite developer Epic Games that lets you play popular games like trivia and Heads Up with friends online.",
-    embed: "https://houseparty.com/"
-  },
-  {
     id: "disc",
     title: "Discussions",
     img_url: "../images/communication.png",
