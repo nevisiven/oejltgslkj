@@ -58,7 +58,7 @@ https://www.letsplayuno.com/
 UNO™, the world's most beloved card game with new experience. Begin a new adventure with the friends across the world now!
 
 
-    "
+    ",
   },
   {
     id: "statistics",
