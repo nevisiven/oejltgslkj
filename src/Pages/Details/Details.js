@@ -54,7 +54,7 @@ class Details extends React.Component {
            <p>{description}</p>
           </div>
           <div className="detail-box">
-            <a href={link}> </a> 
+            <p>{link}</p>
           </div>
      
       
