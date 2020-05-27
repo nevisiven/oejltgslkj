@@ -56,10 +56,6 @@ class Details extends React.Component {
           <div className="detail-box">
             <p>{link}</p>
           </div>
-     
-          <div className="detail-box">
-      <div>{embed}</div>
-       </div>
         </div>
       </div>
     );
