@@ -69,6 +69,8 @@
           transform: scale(0.6);
           transform-origin: bottom;
           transition: all 0.4s;
+	background-size: cover;
+	background-repeat:no-repeat;
         }
       }
       &:hover {
