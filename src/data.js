@@ -60,8 +60,7 @@ export const list = [
     title: "AboutUs",
     img_url: "../images/responsive.png",
     bg_color: "#ffe083",
-    description: "Pr0ject-19 is a website built to help users and people around to get quick and easy information about coronavirus (COVID-19) such as : first syptoms check , how to take care of yourself , get movie and games suggestions , real time statistics etc. 
-
-This Project was developed and managed from : Nevis Hysenaj (Web Developer / InfoSec Researcher) , Erda Ymeri (Application Developer / Pentester) , Suljot Gjoka (Pentester , Exploit Development , Web Design)",
+    description: "Pr0ject-19 is a website built to help users and people around to get quick and easy information about coronavirus (COVID-19) such as : first syptoms check , how to take care of yourself , get movie and games suggestions , real time statistics etc.", 
+    list: "This Project was developed and managed from : Nevis Hysenaj (Web Developer / InfoSec Researcher) , Erda Ymeri (Application Developer / Pentester) , Suljot Gjoka (Pentester , Exploit Development , Web Design)",
   }
 ];
