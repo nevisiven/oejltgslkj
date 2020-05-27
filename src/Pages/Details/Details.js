@@ -31,6 +31,7 @@ class Details extends React.Component {
       img_url,
       description,
       link,
+      list,
       embed
     } = itemForDetailPage;
     return (
@@ -53,6 +54,12 @@ class Details extends React.Component {
           <div className="detail-box">
            <p>{description}</p>
           </div>
+          <div className="detail-box">
+            <h3></h3>
+            <ul>
+              {list &&
+                list.map((item, i) => (
+                  <li key={i}>
           <div className="detail-box">
            <a href={link} target="_blank">{link}</a>
            <div className="detail-box">
