@@ -52,7 +52,7 @@ export const list = [
   {
     id: "aboutus",
     title: "AboutUs",
-    img_url: "../images/aboutus.png",
+    img_url: "../images/responsive.png",
     bg_color: "#ffe083",
   }
 ];
