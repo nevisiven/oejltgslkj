@@ -27,6 +27,7 @@ export const list = [
     title: "Statistics",
     img_url: "../images/covid.png",
     bg_color: "#9bc6ba",
+    embed: "../stat.html"
     
   },
   {
