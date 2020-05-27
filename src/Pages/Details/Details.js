@@ -29,7 +29,9 @@ class Details extends React.Component {
     const {
       title,
       img_url,
-      description
+      description,
+      link
+      
     } = itemForDetailPage;
     return (
       <div className="details-wrapper">
