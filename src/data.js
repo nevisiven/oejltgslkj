@@ -45,7 +45,7 @@ export const list = [
     title: "Games",
     img_url: "../images/joystick.png",
     bg_color: "#ffe0b5",
-    title: "Must-Played Game",
+    title: "Must-Play Game",
     description: "Houseparty is a video chat app owned by Fortnite developer Epic Games that lets you play popular games like trivia and Heads Up with friends online.",
     link: "https://houseparty.com/"
   },
@@ -57,10 +57,10 @@ export const list = [
   },
   {
     id: "aboutus",
-    title: "AboutUs",
+    title: "About Us",
     img_url: "../images/responsive.png",
     bg_color: "#ffe083",
-    description: "Pr0ject-19 is a website built to help users and people around to get quick and easy information about coronavirus (COVID-19) such as : first syptoms check , how to take care of yourself , get movie and games suggestions , real time statistics etc. \n This Project was developed and managed from : \n Nevis Hysenaj (Web Developer / InfoSec Researcher) \n Erda Ymeri (Application Developer / Pentester) \n Suljot Gjoka (Pentester , Exploit Development , Web Design)", 
+    description: "Pr0ject-19 is a website built to help users and people around to get quick and easy information about coronavirus (COVID-19) such as : first syptoms check , how to take care of yourself , get movie and games suggestions , real time statistics etc. \n\n This Project was developed and managed from : \n\n Nevis Hysenaj (Web Developer / InfoSec Researcher) \n\n Erda Ymeri (Application Developer / Pentester) \n\n Suljot Gjoka (Pentester , Exploit Development , Web Design)", 
     
   }
 ];
