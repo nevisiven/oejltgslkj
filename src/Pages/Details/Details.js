@@ -30,8 +30,8 @@ class Details extends React.Component {
       title,
       img_url,
       description,
-      link
-      
+      link,
+      embed
     } = itemForDetailPage;
     return (
       <div className="details-wrapper">
@@ -55,6 +55,9 @@ class Details extends React.Component {
           </div>
           <div className="detail-box">
             <p>{link}</p>
+          <div className="detail-box">
+           <div>{embed}</div>
+          </div>
           </div>
         </div>
       </div>
