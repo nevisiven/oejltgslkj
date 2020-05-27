@@ -23,6 +23,10 @@ export const list = [
     bg_color: "#d6cc9e",
   },
   {
+    id: "statistics",
+    title: "Statistics",
+    img_url: "../images/covid.png",
+    bg_color: "#9bc6ba",
     
   },
   {
