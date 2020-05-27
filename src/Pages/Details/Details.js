@@ -55,12 +55,6 @@ class Details extends React.Component {
            <p>{description}</p>
           </div>
           <div className="detail-box">
-            <h3></h3>
-            <ul>
-              {list &&
-                list.map((item, i) => (
-                  <li key={i}></li>
-          <div className="detail-box">
            <a href={link} target="_blank">{link}</a>
            <div className="detail-box">
            <embed src={embed} width="100%" height="800"></embed>
