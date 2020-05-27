@@ -53,6 +53,13 @@ class Details extends React.Component {
           <div className="detail-box">
            <p>{description}</p>
           </div>
+      <div className="detail-box">
+           <href>{link}</href>
+          </div>
+      <div className="detail-box">
+           <img src={img_det}/>
+          </div>
+      
         </div>
       </div>
     );
