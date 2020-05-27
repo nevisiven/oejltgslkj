@@ -39,6 +39,7 @@ export const list = [
     title: "Chat",
     img_url: "../images/communication.png",
     bg_color: "#e6c5d0",
+    embed: "https://hack.chat/?8qabqcua"
   },
   {
     id: "rreth",
