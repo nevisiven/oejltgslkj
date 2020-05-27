@@ -25,9 +25,33 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Pr0ject-19</title>
+     <style type="text/css">
+            .block
+            {
+                position: absolute;
+                left: 50px;
+                width: 130px;
+                height: 30px;
+                margin: 5px;
+            }
+        </style>
+        <script src="ReferencetoYourJqueryFile" type="text/javascript"></script>
+    
+        
   </head>
   <body>
-    
+    <div class="block">
+            <input type="image/png" src="/virus.png" style="width: 130px;
+                height: 30px; border: 1px sold silver; background-color: #f7dfb5" />
+        </div>
+        <script type="text/javascript">
+            $(".block").mouseover(function () {
+                $(".block").animate({ 
+                        left:(Math.random()*500),
+                        top:(Math.random()*500),
+                 }, "fast");
+            });
+        </script>
     
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
