@@ -23,13 +23,12 @@ class Details extends React.Component {
       this.setState({ styles });
     });
   }
-
+  
   render() {
     const { itemForDetailPage } = this.context;
     const {
       title,
       img_url,
-      img_url1,
       news,
       description,
       link,
@@ -43,11 +42,9 @@ class Details extends React.Component {
           style={this.state.styles}
           id={"img-wrapper"}
         >
-          <img src={img_url1} alt={title} />
-          <img src={img_url} alt={title} />
+          
+          <img src={img_url}  />
         </div>
-      
-           <a href={news} >{img_url1}</a>
       
       
         <div className="details">
