@@ -8,12 +8,13 @@ export const list = [
     id: "news",
     title: "News",
     img_url: "../images/marketing.png",
-    news: "https://friendly-franklin-eaa687.netlify.app/",
+    embed: "https://friendly-franklin-eaa687.netlify.app/",
     bg_color: "#ffa21c"
   },
   {
     id: "stats",
     title: "Statistics",
+    description: "Our website is mainly based on the changes that covid-19 brought to the global world economicaly and ecologicaly but we kept an eye on the current damages it has caused to the humans too . This map shows in real time the infected , healed , dead people from covid-19 infections",
     img_url: "../images/covid.png",
     bg_color: "#9bc6ba",
     embed: "https://amorphouswelshcorgi.htmlpasta.com/"
@@ -22,8 +23,10 @@ export const list = [
   {
     id: "chat",
     title: "Chat",
+    description : "We know everyone has it's own opinion and ideas on how the covid-19 changed the world , ecologicaly , economicaly and socialy ... so we put together and added a web chat to let everyone discuss their ideas and opinion on it.",
     img_url: "../images/communication.png",
-    embed: "https://hack.chat/?8qabqcua"
+    embed: "https://hack.chat/?8qabqcua",
+    description : "We know everyone has it's own opinion and ideas on how the covid-19 changed the world , ecologicaly , economicaly and socialy ... so we put together and added a web chat to our platform to let users disscus their ideas with others "
   },
   {
     id: "about",
