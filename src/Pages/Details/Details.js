@@ -29,6 +29,7 @@ class Details extends React.Component {
     const {
       title,
       img_url,
+      img_url1,
       description,
       link,
       list,
@@ -58,6 +59,15 @@ class Details extends React.Component {
            <a href={link} target="_blank">{link}</a>
            <div className="detail-box">
            <embed src={embed} width="100%" height="400"></embed>
+      <div className="details-wrapper">
+        <div
+          className="img-wrapper"
+          style={this.state.styles}
+          id={"img-wrapper"}
+        >
+          <a href="/news.html">
+<img border="0" alt="News" src="{img_url1}" >
+        </div>
           </div>
           </div>
         </div>
