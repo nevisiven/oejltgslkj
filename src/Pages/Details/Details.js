@@ -29,6 +29,8 @@ class Details extends React.Component {
     const {
       title,
       img_url,
+      img_url1,
+      news,
       description,
       link,
       list,
@@ -43,6 +45,16 @@ class Details extends React.Component {
         >
           <img src={img_url} alt={title} />
         </div>
+      <div className="details-wrapper">
+        <div
+          className="img-wrapper"
+          style={this.state.styles}
+          id={"img-wrapper"}
+        >
+           <a href={news} >{img_url1}</a>
+      </div>
+      
+      
         <div className="details">
           <span onClick={this.props.history.goBack} className="back">
             <img src={Back} alt="back" width={20} />
