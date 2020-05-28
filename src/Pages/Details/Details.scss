@@ -9,9 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 30vw;
-    height: 100vh;
-    padding: 40px;
+    max-width: 0vw;
+    height: 17vh;
+    padding: 30px;
     transition: all 600ms ease-in-out;
     @media only screen and (max-width: 991px) {
       max-width: 100%;
