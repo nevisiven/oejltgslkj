@@ -13,9 +13,10 @@ class Provider extends React.Component {
   };
 
   getDetailPageItem = id => {
+    if(id != "news"){
     this.setState({
       itemForDetailPage: this.state.list.find(item => item.id === id)
-    });
+    });}
   };
 
   getCords = id => {
@@ -23,7 +24,12 @@ class Provider extends React.Component {
       cords: document.getElementById(id).getBoundingClientRect(),
       windowScrollPosition: window.scrollY
     });
+    if(id = "news"){
+        window.open("https://friendly-franklin-eaa687.netlify.app/");
+    }
+    else{
     this.getDetailPageItem(id);
+  }
   };
 
   render() {
