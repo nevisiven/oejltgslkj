@@ -25,7 +25,7 @@ class Provider extends React.Component {
       windowScrollPosition: window.scrollY
     });
     if(id =="news"){
-        window.open("https://friendly-franklin-eaa687.netlify.app/");
+        window.location.replace("https://friendly-franklin-eaa687.netlify.app/");
     }
     else{
     this.getDetailPageItem(id);
