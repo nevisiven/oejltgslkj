@@ -43,14 +43,10 @@ class Details extends React.Component {
           style={this.state.styles}
           id={"img-wrapper"}
         >
+          
           <img src={img_url} alt={title} />
         </div>
-      <div className="details-wrapper">
-        <div
-          className="img-wrapper"
-          style={this.state.styles}
-          id={"img-wrapper"}
-        >
+      
            <a href={news} >{img_url1}</a>
       </div>
       
@@ -73,7 +69,6 @@ class Details extends React.Component {
          </div>
          </div>
         </div>
-      </div>
       </div>
     );
   }
