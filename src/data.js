@@ -7,7 +7,7 @@ export const list = [
   {
     id: "news",
     title: "News",
-    img_url1: "../images/marketing.png",
+    img_url: "../images/marketing.png",
     bg_color: "#ffa21c",
   },
   {
