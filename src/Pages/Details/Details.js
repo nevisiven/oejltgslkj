@@ -48,7 +48,6 @@ class Details extends React.Component {
         </div>
       
            <a href={news} >{img_url1}</a>
-      </div>
       
       
         <div className="details">
@@ -70,7 +69,6 @@ class Details extends React.Component {
          </div>
         </div>
       </div>
-       </div>
     );
   }
 }
