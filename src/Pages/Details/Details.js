@@ -43,7 +43,7 @@ class Details extends React.Component {
           style={this.state.styles}
           id={"img-wrapper"}
         >
-          
+          <img src={img_url1} alt={title} />
           <img src={img_url} alt={title} />
         </div>
       
