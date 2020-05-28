@@ -58,7 +58,6 @@ class Details extends React.Component {
            <a href={link} target="_blank">{link}</a>
            <div className="detail-box">
            <embed src={embed} width="100%" height="400"></embed>
-          </div>
         </div>
       </div>
     );
