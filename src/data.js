@@ -8,8 +8,8 @@ export const list = [
     id: "news",
     title: "News",
     img_url1: "../images/marketing.png",
-    news: "https://friendly-franklin-eaa687.netlify.app/"
-    bg_color: "#ffa21c",
+    news: "https://friendly-franklin-eaa687.netlify.app/",
+    bg_color: "#ffa21c"
   },
   {
     id: "stats",
